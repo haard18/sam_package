@@ -1,0 +1,219 @@
+[
+    {
+        "name": "Missing Return Statement",
+        "description": "A function is missing a return statement.",
+        "pattern": "missing_return",
+        "severity": "low",
+        "line": 2
+    },
+    {
+        "name": "Missing Return Statement",
+        "description": "A function is missing a return statement.",
+        "pattern": "missing_return",
+        "severity": "low",
+        "line": 8
+    },
+    {
+        "name": "Missing Return Statement",
+        "description": "A function is missing a return statement.",
+        "pattern": "missing_return",
+        "severity": "low",
+        "line": 14
+    },
+    {
+        "name": "Missing Return Statement",
+        "description": "A function is missing a return statement.",
+        "pattern": "missing_return",
+        "severity": "low",
+        "line": 27
+    },
+    {
+        "name": "Missing Return Statement",
+        "description": "A function is missing a return statement.",
+        "pattern": "missing_return",
+        "severity": "low",
+        "line": 34
+    },
+    {
+        "name": "Missing Return Statement",
+        "description": "A function is missing a return statement.",
+        "pattern": "missing_return",
+        "severity": "low",
+        "line": 40
+    },
+    {
+        "name": "Missing Return Statement",
+        "description": "A function is missing a return statement.",
+        "pattern": "missing_return",
+        "severity": "low",
+        "line": 51
+    },
+    {
+        "name": "Missing Return Statement",
+        "description": "A function is missing a return statement.",
+        "pattern": "missing_return",
+        "severity": "low",
+        "line": 59
+    },
+    {
+        "name": "Missing Return Statement",
+        "description": "A function is missing a return statement.",
+        "pattern": "missing_return",
+        "severity": "low",
+        "line": 65
+    },
+    {
+        "name": "Missing Return Statement",
+        "description": "A function is missing a return statement.",
+        "pattern": "missing_return",
+        "severity": "low",
+        "line": 70
+    },
+    {
+        "name": "Missing Return Statement",
+        "description": "A function is missing a return statement.",
+        "pattern": "missing_return",
+        "severity": "low",
+        "line": 76
+    },
+    {
+        "name": "Integer Overflow",
+        "description": "Potential integer overflow detected with left operand.",
+        "pattern": "overflow",
+        "severity": "high",
+        "line": 3
+    },
+    {
+        "name": "Integer Overflow",
+        "description": "Potential integer overflow detected with left operand.",
+        "pattern": "overflow",
+        "severity": "high",
+        "line": 3
+    },
+    {
+        "name": "Integer Overflow",
+        "description": "Potential integer overflow detected with right operand.",
+        "pattern": "overflow",
+        "severity": "high",
+        "line": 46
+    },
+    {
+        "name": "Integer Overflow",
+        "description": "Potential integer overflow detected with right operand.",
+        "pattern": "overflow",
+        "severity": "high",
+        "line": 47
+    },
+    {
+        "name": "Integer Overflow",
+        "description": "Potential integer overflow detected with right operand.",
+        "pattern": "overflow",
+        "severity": "high",
+        "line": 46
+    },
+    {
+        "name": "Integer Overflow",
+        "description": "Potential integer overflow detected with right operand.",
+        "pattern": "overflow",
+        "severity": "high",
+        "line": 47
+    },
+    {
+        "name": "Integer Underflow",
+        "description": "Potential integer underflow detected with left operand.",
+        "pattern": "underflow",
+        "severity": "high",
+        "line": 3
+    },
+    {
+        "name": "Integer Underflow",
+        "description": "Potential integer underflow detected with left operand.",
+        "pattern": "underflow",
+        "severity": "high",
+        "line": 3
+    },
+    {
+        "name": "Integer Underflow",
+        "description": "Potential integer underflow detected with right operand.",
+        "pattern": "underflow",
+        "severity": "high",
+        "line": 46
+    },
+    {
+        "name": "Integer Underflow",
+        "description": "Potential integer underflow detected with right operand.",
+        "pattern": "underflow",
+        "severity": "high",
+        "line": 47
+    },
+    {
+        "name": "Integer Underflow",
+        "description": "Potential integer underflow detected with right operand.",
+        "pattern": "underflow",
+        "severity": "high",
+        "line": 46
+    },
+    {
+        "name": "Integer Underflow",
+        "description": "Potential integer underflow detected with right operand.",
+        "pattern": "underflow",
+        "severity": "high",
+        "line": 47
+    },
+    {
+        "name": "Reentrancy",
+        "description": "A function calls an external contract before updating its state.",
+        "pattern": "external_call",
+        "severity": "high",
+        "line": 14
+    },
+    {
+        "name": "Private Key Exposure",
+        "description": "Potential exposure of private key in variable 'private_key'.",
+        "pattern": "private_key_exposure",
+        "severity": "high",
+        "line": 20
+    },
+    {
+        "name": "Floating Pragma",
+        "description": "Floating pragma issue detected with function 'setfenv'.",
+        "pattern": "floating_pragma",
+        "severity": "low",
+        "line": 71
+    },
+    {
+        "name": "Floating Pragma",
+        "description": "Floating pragma issue detected with function 'getfenv'.",
+        "pattern": "floating_pragma",
+        "severity": "low",
+        "line": 72
+    },
+    {
+        "name": "Denial of Service",
+        "description": "Potential Denial of Service vulnerability detected with function 'perform_expensive_operation'.",
+        "pattern": "denial_of_service",
+        "severity": "medium",
+        "line": 77
+    },
+    {
+        "name": "Unchecked External Calls",
+        "description": "Unchecked external call detected in function 'call_external'.",
+        "pattern": "unchecked_external_call",
+        "severity": "medium",
+        "line": 60
+    },
+    {
+        "name": "Greedy/Suicidal Functions",
+        "description": "Potential greedy/suicidal contract detected in function 'greedy_function'.",
+        "pattern": "greedy_suicidal_function",
+        "severity": "high",
+        "line": 40
+    },
+    {
+        "name": "Greedy/Suicidal Functions",
+        "description": "Potential greedy/suicidal contract detected in function 'unsafe_transfer'.",
+        "pattern": "greedy_suicidal_function",
+        "severity": "high",
+        "line": 65
+    }
+]
